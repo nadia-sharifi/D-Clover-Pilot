@@ -1,0 +1,12 @@
+{
+  "folders": [{ "path": ".." }],
+  "settings": {
+    "workbench.startupEditor": "none",
+    "workbench.editorAssociations": {
+      "*.java": "default",
+      "*.py": "default"
+    },
+    "workbench.restoreEditorsToPreviousSessions": false,
+    "workbench.editor.openSideBySideDirection": "right"
+  }
+}

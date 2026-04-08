@@ -1,0 +1,20 @@
+[
+  // Make F5 run the current Java file
+  {
+    "key": "f5",
+    "command": "java.debug.runJavaFile",
+    "when": "resourceLangId == java"
+  },
+  // A second obvious key: Ctrl+Enter runs current Java file
+  {
+    "key": "ctrl+enter",
+    "command": "java.debug.runJavaFile",
+    "when": "resourceLangId == java && editorTextFocus"
+  },
+  // Hide Copilot setup automatically
+  {
+    "key": "",
+    "command": "workbench.action.chat.hideSetup",
+    "when": "!chatSetupHidden && !chatSetupInstalled"
+  }
+]
